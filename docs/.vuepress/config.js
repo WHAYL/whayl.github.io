@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/whayl.github.io/",
+  base: "/",
   title: "我的个人网站",
   description: "使用VuePress构建的个人网站",
   themeConfig: {
