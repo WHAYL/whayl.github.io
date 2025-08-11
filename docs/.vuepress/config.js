@@ -5,8 +5,8 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '关于', link: '/about/' },
-      { text: '项目', link: '/projects/' },
+      { text: '关于我', link: '/about/' },
+      { text: '项目经验', link: '/projects/' },
     ],
     sidebar: {
       '/about/': [
@@ -17,8 +17,8 @@ module.exports = {
       ],
       '/projects/': [
         {
-          title: '我的项目',
-          children: ['/projects/', '/projects/project1', '/projects/project2', '/projects/project3']
+          title: '项目经验',
+          children: ['/projects/']
         }
       ]
     }
